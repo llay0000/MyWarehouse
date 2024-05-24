@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="273.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mywarehouseclient.controller.AnnotationController">
+   <children>
+      <TextArea fx:id="textLastAnnotation" layoutX="15.0" layoutY="49.0" prefHeight="152.0" prefWidth="229.0" wrapText="true" />
+      <Button fx:id="myButton1" layoutX="13.0" layoutY="219.0" mnemonicParsing="false" onAction="#addAction" text="Добавить" />
+      <Button fx:id="myButton3" layoutX="173.0" layoutY="219.0" mnemonicParsing="false" onAction="#ExitAction" text="Закрыть" />
+      <Button fx:id="myButton2" layoutX="96.0" layoutY="219.0" mnemonicParsing="false" onAction="#clearAction" text="Удалить" />
+      <ListView fx:id="dataList" layoutX="259.0" layoutY="49.0" onMouseClicked="#onMouseClickDataList" prefHeight="152.0" prefWidth="218.0" />
+      <Label layoutX="16.0" layoutY="31.0" text="Описание\Аннотация" />
+   </children>
+</AnchorPane>
