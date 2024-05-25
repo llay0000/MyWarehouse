@@ -179,22 +179,8 @@ public class MedicationControllerUpdate {
         comboBox1.setItems(annotationService.getData());
         comboBox2.setItems(storageLocationService.getData());
         comboBox3.setItems(manufacturerCompanyService.getData());
-
-        setButtonStyle(myButton1);
-        setButtonStyle(myButton2);
     }
 
-    private void setButtonStyle(Button button) {
-        button.setStyle("-fx-background-color: #4CAF50; -fx-text-fill: #ffffff;");
-
-        button.setOnMouseEntered(e -> {
-            button.setStyle("-fx-background-color: #8f8f8f; -fx-text-fill: #ffffff;");
-        });
-
-        button.setOnMouseExited(e -> {
-            button.setStyle("-fx-background-color: #4CAF50; -fx-text-fill: #ffffff;");
-        });
-    }
 
 
 

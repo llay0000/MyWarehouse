@@ -1,3 +1,111 @@
+/* Общие стили */
+.root {
+    -fx-background-color: #f2f2f2;
+    -fx-font-size: 12px;
+}
+
+/* Меню */
+.menu-bar {
+    -fx-background-color: #777777;
+    -fx-text-fill: #ffffff;
+}
+
+.menu {
+    -fx-text-fill: #ffffff;
+}
+
+.menu-item {
+    -fx-text-fill: #777777;
+}
+
+.menu-item:hover {
+    -fx-background-color: #777777;
+}
+
+/* Таблица */
+.table-view {
+    -fx-background-color: #f0f8ff;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 13px;
+}
+
+/* Таблица */
+.table-view .table-row-cell:selected {
+    -fx-background-color: #ADD8E6;
+    -fx-text-fill: #777777;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell:selected .table-cell {
+    -fx-text-fill: #777777;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #E6E6E6;
+    -fx-text-fill: #777777;
+}
+
+.table-column {
+    -fx-background-color: linear-gradient(from 0% 80% to 0% 80%, #e4eaf1, #8ab6cb);
+}
+
+
+.table-view .table-cell {
+    -fx-border-color: transparent; /* Прозрачная граница */
+    -fx-padding: 8px 12px; /* Установите желаемые отступы */
+}
+
+
+/* Кнопки */
+.button-container {
+    -fx-background-color: #777777;
+    -fx-padding: 10px;
+}
+
+.button {
+    -fx-background-color: #4d4d4d;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 6px 12px;
+    -fx-cursor: hand;
+    -fx-border-color: transparent; /* Устанавливаем прозрачный цвет границы */
+    -fx-border-width: 0; /* Устанавливаем ширину границы в 0 */
+    -fx-border-radius: 4px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 0);
+}
+
+
+.button:hover {
+    -fx-background-color: #333333;
+}
+
+/* Стилизация AnchorPane */
+.my-anchor-pane {
+    -fx-background-color: #4d4d4d;
+}
+
+.anchor-pane {
+    -fx-background-image: linear-gradient(from 0% 0% to 100% 0%, #d0d0d0, #b0e0e6);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+.menu > .label {
+    -fx-text-fill: #ffffff;
+}
+
+.table-column:hover {
+    -fx-background-color: #ffffff; /* или любой другой желаемый цвет */
+}
+
+.list-view {
+    -fx-background-image: linear-gradient(from 0% 0% to 100% 0%, #d0d0d0, #b0e0e6);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+
+
+
 
 
 

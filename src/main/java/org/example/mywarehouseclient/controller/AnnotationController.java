@@ -10,6 +10,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.example.mywarehouseclient.entity.AnnotationEntity;
 import org.example.mywarehouseclient.service.AnnotationService;
@@ -120,6 +121,9 @@ public class AnnotationController {
     private void initialize(){
         service.getAll();
         dataList.setItems(service.getData());
+        AnchorPane anchorPane = new AnchorPane();
+        anchorPane.getStyleClass().add("my-anchor-pane");
+
     }
 
 }
